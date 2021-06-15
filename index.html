@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <h1>LOGIN FORM</h1>
+        <form name="f1" action="authentication.php" onsubmit="return validation()" method="post">
+        <p>
+            <label>USERNAME:</label>
+            <input type="text" id="user" name="user"/>
+
+        </p>
+        <p>
+            <label>PASSWORD:</label>
+            <input type="password" id="pass" name="pass"/>
+        </p>
+        <p>
+            <input type="submit" id="btn" value="login"/>
+        </p>
+        </form>
+    </div>
+</body>
+</html>

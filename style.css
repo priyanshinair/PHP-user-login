@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(201, 206, 201);
+}
+
+#form{
+    border:2px solid grey;
+    width:25%;
+    border-radius:2px;
+    margin:120px auto;
+    background-color:pink;
+    padding:50px;
+}
+
+#btn{
+    color:black;
+    background-color: white;
+    padding:7px;
+    margin-left:70%;
+}
